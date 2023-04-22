@@ -2,31 +2,27 @@
 PRODUCT_PACKAGES += \
     apns-conf.xml
 
-# AOSP packages
-ifeq ($(BLISS_BUILD_VARIANT), vanilla)
+# Bliss Packages
 PRODUCT_PACKAGES += \
+    Aperture \
+    BlissUpdater \
     Contacts \
+    DeskClock \
     Dialer \
     Email \
     Etar \
     ExactCalculator \
     Exchange2 \
-    messaging
-endif
-
-# Bliss Packages
-PRODUCT_PACKAGES += \
-    Aperture \
-    DeskClock \
-    LatinIME \
-    Recorder \
-    Profiles \
-    BlissUpdater \
-    Seedvault \
-    WallpaperPicker2 \
     GameSpace \
+    LatinIME \
+    messaging \
+    OmniJaws \
     ParallelSpace \
-    OmniJaws
+    Profiles \
+    Recorder \
+    Seedvault \
+    ThemesStub \
+    WallpaperPicker2
 
 # Config
 PRODUCT_PACKAGES += \
